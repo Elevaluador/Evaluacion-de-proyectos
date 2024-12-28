@@ -1,0 +1,7 @@
+User-agent:*
+allow:/
+Disallow:/politica-cookies
+Disallow:/politica-privacidad
+
+#sitemap
+sitemap: https://www.evaluatuproyecto.online/sitemap.xml
