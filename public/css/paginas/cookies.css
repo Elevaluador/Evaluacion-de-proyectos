@@ -1,0 +1,69 @@
+
+ /*Estilos específicos para la página  de politica de cookies */
+.pagina-politica-cookies{     
+    
+    margin: 0%;
+    background: #00215E;
+    color:#f0f0f0;
+    padding: 1%;
+ }
+ .pagina-politica-cookies h1{     
+     
+     text-align: center;
+     font-size: 170%;
+ }
+ .pagina-politica-cookies h2{     
+     text-align: center;
+ }
+
+ @media (max-width:480px) {
+
+    /* Estilos específicos para la página  de politica de cookies en celular*/
+.pagina-politica-cookies{     
+    
+   
+    padding: 0%;
+    border:#00215E
+    
+                
+            
+        
+    
+
+
+}
+.pagina-politica-cookies h1{     
+    
+    text-align: center;
+    font-size: 20%;
+            
+
+}
+.pagina-politica-cookies h2{     
+    
+    text-align: center;
+    width: 85%;
+    margin-inline: 4%;
+            
+
+}
+.pagina-politica-cookies p{     
+    
+    text-align: justify;
+    font-size: 80%;
+    padding: 6%;
+            
+
+
+}
+
+.pagina-politica-cookies li{     
+    
+    
+    text-align: justify;
+    font-size: 75%;
+    margin: 8%;
+            
+
+}
+ }

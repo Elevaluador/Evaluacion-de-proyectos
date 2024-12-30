@@ -1,0 +1,122 @@
+footer {     
+    background: #00215E;
+    text-align: center;
+    color:aliceblue;
+    margin: 0%;
+    padding: 0%;
+    border:0;
+    display: flex; }
+
+footer img {     
+   width: 30%;
+   }
+footer h2 {     
+    width: 10%;
+    margin-left: 2%;
+    }
+footer h3 {     
+    width: auto;
+    margin-left: 5%;
+    }
+.contacto-footer {     
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+ }
+
+.footer-celular{     
+    width: 26%;
+    margin-top: 4%;
+   }
+.footer-direccion{     
+    width: 30%;
+    margin-top: 3%;
+   }  
+.footer-correo{     
+    width: 30%;
+    margin-top: 7%;
+   }           
+.footer-redesSociales {     
+    width: 23%;
+    margin-top: 5%;
+    margin-right: 4%;
+}
+
+
+footer a {
+    color: aliceblue;
+}
+
+@media (max-width:480px) {
+
+    footer {   
+    
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;   
+        margin-left: -3%;
+        margin-right: -3%;             
+    }
+    
+    footer h2 {     
+        width: 10%;
+        margin-left: 30%;
+        }
+    footer h3 {     
+        margin-top: 0%;
+        width: 94%;
+        margin-inline: 12%;
+        text-align: center;
+            }
+    
+    footer img {     
+        width: 50%;
+        margin-top: 0%;
+        }
+    
+    .footer-titulo {     
+        margin-inline:36%
+        ;
+        
+        }
+    footer p  {     
+        width:100%
+        ;
+        
+        }
+    
+    .footer-celular {     
+        margin-inline: -56%;
+        margin-top: 21%;
+            
+            }
+     .footer-direccion {     
+        margin-inline: 21%;
+        margin-top: 65%;
+        width: 40%;
+        font-size: 69%;
+                
+                }
+     .footer-correo {     
+        margin-inline: -68%;
+            margin-top: 120%;
+            width: 40%;
+            text-align: right;
+                    }
+     .footer-redesSociales{     
+        
+            margin-inline: 24%;
+            width: 63%;
+            margin-top: -5%;
+                        
+                    
+                
+        
+        
+    
+    }
+    
+    
+
+}

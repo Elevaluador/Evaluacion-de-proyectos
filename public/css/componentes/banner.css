@@ -1,0 +1,35 @@
+#cookie-banner {
+    position: fixed; /* Posicionamiento absoluto */
+    top: 85%; /* Ubicado en la mitad superior */
+    left: 78%; /* Ubicado en la mitad izquierda */
+    transform: translate(-50%, -50%); /* Centrar el banner */
+    width: 30%; /* Ancho del banner */
+    background-color: #e2dbdb; /* Color de fondo */
+    padding: 10px; /* Padding interno */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    animation: showBanner 2s ease-in-out; /* Animación de aparición */
+  }
+  
+  @keyframes showBanner {
+    from { top: -100%; }
+    to { top: 50%; }
+  }
+  
+  #cookie-banner p {
+    margin: 0; /* Elimina márgenes predeterminados */
+    text-align: justify;
+    color:rgb(0, 0, 5);
+   
+  }
+  
+  #aceptar-cookies {
+    background-color: blue; /* Color de fondo del botón */
+    color: rgb(243, 242, 242); /* Color de texto del botón */
+    padding: 5px 10px; /* Padding del botón */
+    border: none; /* Elimina borde del botón */
+    cursor: pointer; /* Cambia el cursor a mano al pasar el ratón */
+  }
+
+  .cookie-banner a {
+    color:#2b57c9
+  }

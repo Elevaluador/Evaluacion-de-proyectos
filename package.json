@@ -1,0 +1,32 @@
+{
+  "name": "evalua-tu-proyecto",
+  "version": "1.0.0",
+  "description": "\"ES una web que ofrece contenido tipo blog, servicios en asesoria de evaluacio y herramientas para facilitar la comresion de la materia universitaria.\"",
+  "main": "index.js",
+  "scripts": {
+    "start": " node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elevaluador/Evaluacion-de-proyectos.git"
+  },
+  "keywords": [
+    "Evaluacion de proyectos",
+    "SEO",
+    "Mercado Objetivo",
+    "Youtube",
+    "node.js",
+    "analisis del riesgo",
+    "Flujo de caja"
+  ],
+  "author": "Luis Flores <luikiflores@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Elevaluador/Evaluacion-de-proyectos/issues"
+  },
+  "homepage": "https://github.com/Elevaluador/Evaluacion-de-proyectos#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}

@@ -1,0 +1,75 @@
+/* Estilos específicos para la página  de politica de privacidad */
+.pagina-politica-privacidad{     
+    
+    background: #00215E;
+    color:aliceblue;
+    padding:1%;
+    margin:-1%
+    
+}
+.pagina-politica-privacidad a{     
+    
+    
+    color:#FF9A00
+}
+.pagina-politica-privacidad h1{     
+    
+    text-align: center;
+    font-size: 170%;
+            
+
+}
+.pagina-politica-privacidad h2{     
+    
+    text-align: center;
+    
+            
+
+}
+.pagina-politica-privacidad p{     
+    
+    text-align: justify;
+    padding:1%;}
+
+.pagina-politica-privacidad li strong{     
+    
+        color:#FF9A00
+        
+                
+    
+    }
+    @media (max-width:480px) {
+        /* Estilos específicos para la página  de politica de privacidad en celular */
+.pagina-politica-privacidad{     
+    
+    padding: 6%;
+    margin: -3%;
+   
+                
+            
+        
+    
+
+
+}
+
+
+
+.pagina-politica-privacidad p{     
+    
+    text-align: justify;
+    font-size: 80%;
+    margin-inline: 6%;
+            
+
+}
+.pagina-politica-privacidad li{     
+    
+    text-align: justify;
+    font-size: 80%;
+    margin-inline: 6%;
+            
+
+}
+    
+    }

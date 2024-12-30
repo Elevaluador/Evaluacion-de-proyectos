@@ -6,25 +6,7 @@ body {
     
     
 }
-
-.oswald{
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal; 
-    }
-
-   
-.montserrat {
-      font-family: "Montserrat", sans-serif;
-      font-optical-sizing: auto;
-      font-style: normal;
-    }
-.pt-sans-narrow-regular {
-        font-family: "PT Sans Narrow", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-}       
+  
 .titulo { 
     font-family: "Oswald", sans-serif;
     font-size: 40px;
@@ -32,10 +14,11 @@ body {
     color: blanchedalmond;    
     background-color: blue;  
     width: 813px;
-    height: 135px;
+    height: 87px;
     z-index: 1; 
     padding: 10px;
 }
+
 
 .subtitulo { 
     font-family: "PT Sans Narrow", sans-serif;
@@ -147,7 +130,9 @@ font-weight: bold;}
 }   
 
 .promesa-valor h2 { 
-    font-size: 35px;
+    font-size: 28px;
+    text-align: center;
+    width: auto;
 }   
 .promesa-valor  > .contenido{         
    display: flex;
@@ -440,94 +425,6 @@ background-color:black;
         
  }    
        
-
-footer {     
-    background: #00215E;
-    text-align: center;
-    color:aliceblue;
-    margin: 0%;
-    padding: 0%;
-    border:0;
-    display: flex;
-    
-    
-            }
-footer img {     
-   width: 30%;
-   }
-footer h2 {     
-    width: 10%;
-    margin-left: 2%;
-    }
-footer h3 {     
-    width: auto;
-    margin-left: 5%;
-    }
-.contacto-footer {     
-  flex: 1;
-  display: flex;
-  flex-direction: row;
- }
-
-.footer-celular{     
-    width: 26%;
-    margin-top: 4%;
-   }
-.footer-direccion{     
-    width: 30%;
-    margin-top: 3%;
-   }  
-.footer-correo{     
-    width: 30%;
-    margin-top: 7%;
-   }           
-.footer-redesSociales {     
-    width: 23%;
-    margin-top: 5%;
-    margin-right: 4%;
-}
-
-
-footer a {
-    color: aliceblue;
-}
-
-#cookie-banner {
-    position: fixed; /* Posicionamiento absoluto */
-    top: 85%; /* Ubicado en la mitad superior */
-    left: 78%; /* Ubicado en la mitad izquierda */
-    transform: translate(-50%, -50%); /* Centrar el banner */
-    width: 30%; /* Ancho del banner */
-    background-color: #080000; /* Color de fondo */
-    padding: 10px; /* Padding interno */
-    z-index: 1000; /* Asegura que esté por encima de otros elementos */
-    animation: showBanner 2s ease-in-out; /* Animación de aparición */
-  }
-  
-  @keyframes showBanner {
-    from { top: -100%; }
-    to { top: 50%; }
-  }
-  
-  #cookie-banner p {
-    margin: 0; /* Elimina márgenes predeterminados */
-    text-align: justify;
-    color:black;
-   
-  }
-  
-  #aceptar-cookies {
-    background-color: blue; /* Color de fondo del botón */
-    color: rgb(243, 242, 242); /* Color de texto del botón */
-    padding: 5px 10px; /* Padding del botón */
-    border: none; /* Elimina borde del botón */
-    cursor: pointer; /* Cambia el cursor a mano al pasar el ratón */
-  }
-
-  .cookie-banner a {
-    color:#2b57c9
-  }
-
 @media (max-width:480px)   { 
 
     
@@ -825,228 +722,5 @@ footer a {
     font-size: 108%; /* Ajusta el tamaño del texto del botón */
     margin-inline: 9%;
     padding: 3%; /* Ajusta el relleno del botón según sea necesario */              
-}
+} }
 
-footer {   
-    
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center ;   
-    margin-left: -3%;
-    margin-right: -3%;             
-}
-
-footer h2 {     
-    width: 10%;
-    margin-left: 30%;
-    }
-footer h3 {     
-    margin-top: 0%;
-    width: 94%;
-    margin-inline: 12%;
-    text-align: center;
-        }
-
-footer img {     
-    width: 50%;
-    margin-top: 0%;
-    }
-
-.footer-titulo {     
-    margin-inline:36%
-    ;
-    
-    }
-footer p  {     
-    width:100%
-    ;
-    
-    }
-
-.footer-celular {     
-    margin-inline: -56%;
-    margin-top: 21%;
-        
-        }
- .footer-direccion {     
-    margin-inline: 21%;
-    margin-top: 65%;
-    width: 40%;
-    font-size: 69%;
-            
-            }
- .footer-correo {     
-    margin-inline: -68%;
-        margin-top: 120%;
-        width: 40%;
-        text-align: right;
-                }
- .footer-redesSociales{     
-    
-        margin-inline: 24%;
-        width: 63%;
-        margin-top: -5%;
-                    
-                
-            
-    
-    
-
-}
-
-/* Estilos específicos para la página  de politica de cookies en celular*/
-.pagina-politica-cookies{     
-    
-   
-    padding: 0%;
-    border:#00215E
-    
-                
-            
-        
-    
-
-
-}
-.pagina-politica-cookies h1{     
-    
-    text-align: center;
-    font-size: 20%;
-            
-
-}
-.pagina-politica-cookies h2{     
-    
-    text-align: center;
-    width: 85%;
-    margin-inline: 4%;
-            
-
-}
-.pagina-politica-cookies p{     
-    
-    text-align: justify;
-    font-size: 80%;
-    padding: 6%;
-            
-
-
-}
-
-.pagina-politica-cookies li{     
-    
-    
-    text-align: justify;
-    font-size: 75%;
-    margin: 8%;
-            
-
-}
-
-/* Estilos específicos para la página  de politica de privacidad en celular */
-.pagina-politica-privacidad{     
-    
-    padding: 6%;
-    margin: -3%;
-   
-                
-            
-        
-    
-
-
-}
-
-
-
-.pagina-politica-privacidad p{     
-    
-    text-align: justify;
-    font-size: 80%;
-    margin-inline: 6%;
-            
-
-}
-.pagina-politica-privacidad li{     
-    
-    text-align: justify;
-    font-size: 80%;
-    margin-inline: 6%;
-            
-
-}
-}
-
-/*Estilos específicos para la página  de politica de cookies */
-.pagina-politica-cookies{     
-    
-    margin: 0%;
-    background: #00215E;
-    color:#f0f0f0;
-    padding: 1%;
- }
- .pagina-politica-cookies h1{     
-     
-     text-align: center;
-     font-size: 170%;
- }
- .pagina-politica-cookies h2{     
-     text-align: center;
- }
-
-/* Estilos específicos para la página  de politica de privacidad */
-.pagina-politica-privacidad{     
-    
-    background: #00215E;
-    color:aliceblue;
-    padding:1%;
-    margin:-1%
-    
-}
-.pagina-politica-privacidad a{     
-    
-    
-    color:#FF9A00
-}
-.pagina-politica-privacidad h1{     
-    
-    text-align: center;
-    font-size: 170%;
-            
-
-}
-.pagina-politica-privacidad h2{     
-    
-    text-align: center;
-    
-            
-
-}
-.pagina-politica-privacidad p{     
-    
-    text-align: justify;
-    padding:1%
-            
-
-}
-.pagina-politica-privacidad li strong{     
-    
-    color:#FF9A00
-    
-            
-
-}
-/* Estilos específicos para la página  404 */
-.pagina-404{     
-    
-    color: #FF9A00;
-    background: #00215E;
-    height: 100vh;
-    font-size: 1000%;
-    display: flex;
-   justify-content: center;
-    
-            
-
-}

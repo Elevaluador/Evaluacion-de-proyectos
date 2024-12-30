@@ -1,0 +1,10 @@
+/* Estilos específicos para la página  404 */
+.pagina-404{     
+    
+    color: #FF9A00;
+    background: #00215E;
+    height: 100vh;
+    font-size: 1000%;
+    display: flex;
+   justify-content: center;
+}
