@@ -1,10 +1,41 @@
-<%- include ("componentes/head") %>
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+         <!-- Google tag (gtag.js) -->
+         <script async src="https://www.googletagmanager.com/gtag/js?id=G-J0JN58XS5T"></script>
+         <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+ 
+         gtag('config', 'G-J0JN58XS5T');
+         </script>
+        
+        <meta charset="UTF-8"/>    
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="canonical" href="https://www.evaluatuproyecto.online"/>         
+        <meta name="description" content="¿Quieres definir tu mercado objetivo? Usa mi calculadora gratuita para identificar a tu público ideal en minutos y conocer el tamaño de tu mercado"/>
+        <meta name="robots" content="index,follow"/>
+        <title>Así Define tu Mercado Objetivo en Perú:Calculadora Gratis</title> 
+        <link rel="preload" href="./public/css/paginas/calculadora.css" as="style" type="text/css"> 
+        <link rel="preload" href="./public/css/componentes/menu.css" as="style" type="text/css">      
+        <link rel="stylesheet" href="./public/css/paginas/calculadora.css"> 
+        <link rel="stylesheet" href="./public/css/componentes/menu.css">
+        <link rel="icon" href="./public/imagenes/favicon/evaluador de proyectos.png" type="image/x-icon">
+    </head>
     <body>
         <article class="calculadora-mercado-objetivo">
+            <nav>
+                <ul class="menu">
+                    <a href="./index.html" target="_blank">Conóceme</a></li>
+                    <a href="./calculadora.html">Calculadora del Mercado Objetivo</a></li>
+                </ul>
+            </nav>
             <header>
                 <h1>Aprende a Definir tu Mercado Objetivo en Perú con esta Calculadora Gratis</h1>
                 <p>Definir el mercado objetivo es una de las etapas más importantes en la evaluación de proyectos, ya que permite identificar el tamaño del mercado. A través de este artículo y nuestra calculadora gratuita, podrás definir tu público ideal en Perú y aplicar de manera práctica lo aprendido en tus estudios.</p>
-                <nav></nav>
+
             </header>
 
             <section class=mercado id="mercado-potencial">
@@ -77,6 +108,6 @@
                 </section>
             </section>
         </article>
-        <%- include("componentes/footer") %>
+        <script defer src="./public/js/paginas/calculadora.js"></script>
     </body>
 </html>

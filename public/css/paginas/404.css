@@ -1,10 +1,28 @@
-/* Estilos específicos para la página  404 */
-.pagina-404{     
-    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para la página 404 */
+.pagina-404 {
+    display: flex; /* Activamos flexbox */
+    flex-direction: column; /* Alineación en columna para organizar <h1> y <h2> */
+    justify-content: center; /* Centrado vertical */
+    align-items: center; /* Centrado horizontal */
+    background-color: #00215E; /* Fondo azul */
+    height: 100vh; /* Ocupa toda la altura del viewport */
+    text-align: center; /* Asegura que los textos estén centrados */
+}
+
+h1 {     
     color: #FF9A00;
-    background: #00215E;
-    height: 100vh;
-    font-size: 1000%;
-    display: flex;
-   justify-content: center;
+    font-size: 130px;
+    margin-bottom: 20px; /* Espacio entre h1 y h2 */
+}
+
+h2 {
+    color: antiquewhite;
+    font-size: 50px;
+    margin: 0; /* Eliminamos márgenes adicionales */
 }

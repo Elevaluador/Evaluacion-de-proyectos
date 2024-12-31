@@ -2,9 +2,6 @@ function cargarCalculadora() {
     let mercadoPotencial = 0;
     let mercadoDisponible = 0;
     let mercadoEfectivo = 0;
-   
-
-
     
         let botonMercadoPotencial = document.getElementById('boton-mercado-potencial');
         botonMercadoPotencial.addEventListener('click', calcularMercadoPotencial);
